@@ -43,4 +43,6 @@ code smell names from: https://github.com/troessner/reek/blob/master/docs/Code-S
 
 List of code smells identified:
 
-1. uncommunicative variable name ('c', 'b', 'a') - fixed by renaming them with descriptive words
+1. uncommunicative variable name ('c', 'b', 'a' is not very descriptive) - fixed by renaming them with descriptive words
+2. too many statements (setup() contains too many tasks) - split up the contents of setup() into createUI(), getElements(), bindEventListeners(elements), and updateUI()
+3. duplicate code (counterID starts at 0 but the <span> had another 0) - deleted the 0 between the <span></span>
