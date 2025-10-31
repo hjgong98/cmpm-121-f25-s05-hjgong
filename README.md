@@ -38,3 +38,9 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+code smell names from: https://github.com/troessner/reek/blob/master/docs/Code-Smells.md
+
+List of code smells identified:
+
+1. uncommunicative variable name ('c', 'b', 'a') - fixed by renaming them with descriptive words
